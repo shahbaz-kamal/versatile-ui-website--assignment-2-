@@ -230,6 +230,7 @@ p {
 }
 .habit-title {
   text-align: center;
+  letter-spacing: 120%;
 }
 .habit-description {
   text-align: center;
@@ -237,6 +238,7 @@ p {
   letter-spacing: 0.3px;
   margin: 0 auto;
   margin-top: 14px;
+  line-height: 24px;
 }
 .habit-card-container {
   margin-top: 58px;
@@ -390,6 +392,30 @@ p {
   .banner-image {
     margin: 0 auto;
   }
+
+  /* change your habbit */
+
+  .change-habit {
+    margin-top: 7px;
+  }
+  .habit-title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .habit-description {
+    max-width: 316px;
+  }
+  .for-responsivness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .habit-card-container {
+    /* margin: 0 auto; */
+    margin-top: 58px;
+
+    grid-template-columns: 1fr;
+  }
 }
 /* responsive styling for mobile device ends */
 
@@ -439,6 +465,13 @@ p {
     backdrop-filter: blur(10px);
     margin-top: -530px;
     margin-left: 194px;
+  }
+  /* habit */
+  .habit-card-container {
+    /* margin: 0 auto; */
+    margin-top: 58px;
+
+    grid-template-columns: 1fr 1fr;
   }
 }
 
