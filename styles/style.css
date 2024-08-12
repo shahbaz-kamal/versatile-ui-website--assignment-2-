@@ -38,6 +38,12 @@ p {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
 }
+.section-title {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: #ffffff;
+}
 /* shared styling ends */
 
 /* header styling starts */
@@ -218,6 +224,55 @@ p {
 
 /* header styling ends */
 
+/* change your habit styling starts */
+.change-habit {
+  margin-top: 100px;
+}
+.habit-title {
+  text-align: center;
+}
+.habit-description {
+  text-align: center;
+  max-width: 671px;
+  letter-spacing: 0.3px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.habit-card-container {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.habit-card {
+  max-width: 231px;
+}
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.habit-card-image {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.habit-card-title {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 1.125rem;
+}
+.habit-card-description {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+/* change your habit styling ends */
+
 /* responsive styling for mobile device starts */
 @media screen and (max-width: 576px) {
   .container {
@@ -372,6 +427,18 @@ p {
   }
   .banner-container {
     margin-top: 75px;
+  }
+  .three-hundred {
+    margin-top: -229px;
+    margin-left: -50px;
+
+    backdrop-filter: blur(10px);
+  }
+  .five-hundred {
+    /* height: 98px; */
+    backdrop-filter: blur(10px);
+    margin-top: -530px;
+    margin-left: 194px;
   }
 }
 
