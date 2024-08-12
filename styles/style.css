@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+/* font-family: 'Miama', sans-serif;*/
+
+/*  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+
+/* shared styling starts */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: black;
+}
+.display-flex {
+  display: flex;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.btn-primary {
+  background-color: #e6533c;
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 46px;
+  border: none;
+  padding: 8px 20px;
+}
+/* shared styling ends */
+
+/* header styling starts */
+.header {
+  /* background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  ); */
+}
+/* navbar starts */
+.navbar {
+  justify-content: space-between;
+  margin-top: 55px;
+  align-items: center;
+}
+
+.nav-option {
+  gap: 47px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.about-section {
+  padding: 0 20px;
+}
+
+.brand-name {
+  color: #e6533c;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.icon {
+  display: none;
+}
+/* navbar ends */
+
+/* header styling ends */
+
+/* responsive styling for mobile device starts */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+
+  .icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-option {
+    display: none;
+  }
+  .icon {
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* responsive styling for mobile device ends */
+
+/* respomsive styling for tablet starts */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+  .btn-primary,
+  .nav-link {
+    font-size: 16px;
+  }
+  .nav-option {
+    gap: 20px;
+  }
+}
+
+/* respomsive styling for tablet ends */
