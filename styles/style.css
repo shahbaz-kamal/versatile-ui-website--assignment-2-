@@ -625,6 +625,53 @@ select {
     /* object-position: 60% 80%; */
     border-radius: 18px;
   }
+
+  /* BMI calculator starts*/
+
+  .calculator-content {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .calculator-title-container {
+    margin-top: 30px;
+  }
+  .calculator-intro {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .calculator-intro h3 {
+    font-size: 32px;
+  }
+
+  .calculator-container {
+    margin-top: 32px;
+    padding-top: 34px;
+  }
+  .charting-table > h3 {
+    font-size: 16px;
+  }
+  .calculating-part > h3 {
+    font-size: 16px;
+  }
+  .table-title {
+    margin-bottom: 23px;
+  }
+  .calculating-part {
+    max-width: 85%;
+    /* margin-top: 42px; */
+  }
+  .input-options-container {
+    max-width: 80%;
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: 75% 75%;
+    gap: 12px;
+  }
+  .calculating-part > button {
+    margin-top: 34px;
+  }
 }
 /* responsive styling for mobile device ends */
 
