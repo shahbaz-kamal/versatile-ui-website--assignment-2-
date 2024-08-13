@@ -320,6 +320,130 @@ p {
 }
 /* run an extra mile ends */
 
+/* BMI calculator styling starts */
+.calculator-title-container {
+  margin-top: 88px;
+}
+
+.calculator-intro {
+  max-width: 671px;
+  margin: 0 auto;
+}
+.calculator-description {
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 14px;
+}
+
+/* calculator container */
+
+.calculator-container {
+  margin-top: 88px;
+  background: rgba(34, 34, 34, 1);
+  padding-top: 50px;
+  padding-bottom: 52px;
+}
+.calculator-content {
+  gap: 175px;
+  justify-content: space-around;
+}
+
+.calculator-container h3 {
+  font-size: 1.75rem;
+}
+.table-title {
+  margin-bottom: 52px;
+}
+table,
+th,
+td,
+tr,
+tfoot {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+table {
+  width: 310px;
+}
+th,
+td {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  text-align: left;
+}
+th {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 120%;
+}
+td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* right side */
+.calculating-part {
+  max-width: 577px;
+}
+
+.calculating-part-title {
+  margin-bottom: 14px;
+}
+
+.calculating-part-description {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.3px;
+  line-height: 120%;
+}
+.input-options-container {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.input-options-container input,
+select {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  border: none;
+  line-height: 22px;
+}
+.activity-factor {
+  grid-column: span 2;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  /* opacity: 1; Ensure full opacity */
+}
+.input-options-container option {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+/* buttons */
+
+.btn-calculation {
+  width: 224px;
+  margin-top: 34px;
+  padding: 16px 70px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+/* BMI calculator styling ends */
+
 /* responsive styling for mobile device starts */
 @media screen and (max-width: 576px) {
   .container {
