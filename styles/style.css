@@ -95,6 +95,7 @@ p {
   color: #e6533c;
   font-size: 2.25rem;
   font-weight: 800;
+  font-style: italic;
 }
 
 .icon {
@@ -516,6 +517,64 @@ select {
 }
 /* team-member styling ends*/
 
+/* footer styling starts */
+footer {
+  margin-top: 88px;
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 66px;
+  padding-bottom: 36px;
+  margin-bottom: 11px;
+}
+.footer-container {
+  /* margin-top: 100px; */
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr;
+  gap: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 79px;
+}
+.footer-title {
+  font-weight: 800;
+  font-size: 4.375rem;
+}
+.footer-description {
+  margin-top: 20px;
+  letter-spacing: 0.3px;
+  max-width: 443px;
+}
+.column-title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 39px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-link p {
+  font-size: 1.4375rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer hr {
+  max-width: 87%;
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright-text {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+/* .column-1 {
+  margin-right: 50px;
+} */
+/* footer styling ends */
+
 /* responsive styling for mobile device starts */
 @media screen and (max-width: 576px) {
   .container {
@@ -761,6 +820,34 @@ select {
     margin-top: 37px;
 
     grid-template-columns: 1fr;
+    margin-bottom: 0;
+  }
+
+  /* footer */
+  .footer-container {
+    /* margin-top: 100px; */
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    gap: 30px;
+    /* padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 79px; */
+    margin-bottom: 71px;
+  }
+  footer {
+    margin-top: 66px;
+    padding-top: 20px;
+    padding-bottom: 57px;
+    margin-bottom: 0;
+  }
+  footer hr {
+    /* margin-top: 71px; */
+    /* margin-bottom: 71px; */
+  }
+  .copyright-text {
+    /* font-size: 20px;
+    text-align: center; */
+    margin-top: 71px;
   }
 }
 /* responsive styling for mobile device ends */
