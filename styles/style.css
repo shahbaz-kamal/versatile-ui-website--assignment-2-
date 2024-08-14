@@ -545,26 +545,9 @@ select {
   gap: 100px;
   /* gap: 50px; */
 }
-/* for responsive */
-
-/* .sucess-stories-container {
-  margin-top: 44px;
-  margin-bottom: 44px;
+.copy-right {
+  text-align: justify;
 }
-  
-.success-title {
-  text-align: center;
-  font-size: 32px;
-}
-
-.success-description {
-  margin-top: 20px;
-  max-width: 60%;
-  margin: 0 auto;
-  margin-bottom:25px
-  
-}
- */
 
 /* successstories styling ends */
 
