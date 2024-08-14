@@ -545,6 +545,12 @@ select {
   gap: 100px;
   /* gap: 50px; */
 }
+.declaration {
+  justify-content: center;
+  align-items: center;
+  /* max-width: 70%; */
+  margin: 0 auto;
+}
 .copy-right {
   text-align: justify;
 }
