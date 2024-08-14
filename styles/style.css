@@ -445,6 +445,129 @@ select {
 }
 /* BMI calculator styling ends */
 
+/* successstories styling starts */
+.sucess-stories-container {
+  margin-top: 88px;
+  margin-bottom: 88px;
+}
+.success-title {
+  text-align: center;
+}
+.success-description {
+  margin-top: 14px;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.name {
+  font-size: 32px;
+  font-weight: 800;
+}
+.occupation {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.before,
+.after {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.success-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.success-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 18px;
+
+  position: relative;
+}
+.success-condtion {
+  color: #ffffff;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.success-content {
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.success-text {
+  max-width: 320px;
+}
+.quote {
+  text-align: justify;
+  font-style: italic;
+  /* max-width: 200px; */
+  /* max-width: 50%; */
+}
+.for-margin {
+  margin-bottom: 50px;
+}
+.mark {
+  /* margin-top: 20px; */
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.success-image-2 {
+  /* width: 300px; */
+  height: 350px;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.success-image-2 img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  overflow: hidden;
+  border-radius: 18px;
+}
+.mark {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  /* gap: 50px; */
+}
+/* for responsive */
+
+/* .sucess-stories-container {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+  
+.success-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.success-description {
+  margin-top: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom:25px
+  
+}
+ */
+
+/* successstories styling ends */
+
 /* team-member styling starts*/
 
 .meet-our-team {
@@ -459,6 +582,7 @@ select {
   text-align: center;
   max-width: 671px;
   margin: 0 auto;
+  /* max-width: 1060px; */
 }
 .team-image-card::before {
   content: "";
@@ -475,13 +599,20 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
+  /* justify-content: center; */
+  /* padding-bottom: 20px;
+  padding-left: auto;
+  padding-right: auto; */
   gap: 20px;
+  /* margin: 0 auto; */
 }
 .team-image-card {
-  max-width: 326px;
+  width: 326px;
   height: 272px;
   border-radius: 18px;
   position: relative;
+  margin: auto auto;
+  /* justify-self: center; */
   /* background: rgba(0, 0, 0, 0.8); */
 }
 .team-image {
@@ -804,6 +935,35 @@ footer hr {
     margin-top: 34px;
   }
 
+  /* sucess section */
+  .sucess-stories-container {
+    margin-top: 44px;
+    margin-bottom: 44px;
+  }
+
+  .success-title {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .success-description {
+    margin-top: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .success-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .success-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .name {
+    font-size: 28px;
+  }
   /* team section */
   .meet-our-team {
     margin-top: 66px;
